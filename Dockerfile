@@ -18,4 +18,4 @@ COPY . /app
 RUN ls -la /app
 
 # Set the default command to run the notebook
-CMD ["/run-notebook.py", "--notebook", "/app/combined-combined-all-01.ipynb", "--input", "$inputDataset", "--output", "$outputDir"]
+CMD ["/run-notebook.py", "--notebook", "/app/combined-all-03.ipynb", "--input", "$inputDataset", "--output", "$outputDir"]
